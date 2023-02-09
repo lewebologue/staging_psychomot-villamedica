@@ -515,9 +515,29 @@ h6,
 @media screen and (max-width:479px) {
     .formations{
         padding: 0!important;
-        
     }
     #map{
         padding-bottom:unset!important;
+    }
+    .responsive-hero{
+        height: 35vh!important;
+        margin-bottom: 2rem!important;
+    }
+    .responsive-hero img {
+        height: 35vh!important;
+    }
+    .responsive-hero h1{
+        font-size: 1.5rem!important;
+        margin-bottom: 0.8rem!important;
+    }
+    .responsive-hero p {
+        margin: unset!important;
+        padding: unset!important;
+    }
+    .responsive-hero a {
+        margin-top: 0.5rem!important;
+    }
+    #soins{
+        padding-top: 0!important;
     }
 }
