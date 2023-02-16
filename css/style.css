@@ -543,4 +543,7 @@ h6,
     #soins{
         padding-top: 0!important;
     }
+    .responsive-bubble{
+        margin-bottom: 75px!important;
+    }
 }
