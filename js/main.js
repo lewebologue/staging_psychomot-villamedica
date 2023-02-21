@@ -71,3 +71,12 @@
 function scrollToTop(){
     document.getElementById("scrollToTop").scrollTo({behavior: "smooth"});
 }
+
+function removeClass() {
+    if (window.innerWidth < 992) {
+        document.getElementById("booking-btn").classList.remove("booking");
+    } else {
+        document.getElementById("booking-btn").classList.add("booking");
+    }
+}
+removeClass();
