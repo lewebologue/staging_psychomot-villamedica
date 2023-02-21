@@ -129,6 +129,10 @@ h6,
     transform: rotate(-180deg);
 }
 
+.booking{
+    display: none!important;
+}
+
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
         margin-right: 0;
