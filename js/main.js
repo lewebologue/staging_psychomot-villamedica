@@ -79,4 +79,5 @@ function removeClass() {
         document.getElementById("booking-btn").classList.add("booking");
     }
 }
-removeClass();
+//event listener on window resize
+window.addEventListener("resize", removeClass);
