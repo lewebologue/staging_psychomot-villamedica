@@ -73,10 +73,11 @@ function scrollToTop(){
 }
 
 function removeClass() {
-    if (window.innerWidth < 992) {
-        document.getElementById("booking-btn").classList.remove("booking");
-    } else {
+    if (window.innerWidth > 992) {
         document.getElementById("booking-btn").classList.add("booking");
+    } else {
+        document.getElementById("booking-btn").classList.remove("booking");
     }
 }
-removeClass();
+addEventListener("resize", removeClass);
+onload = removeClass();
